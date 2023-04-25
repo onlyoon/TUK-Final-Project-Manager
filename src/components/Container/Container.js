@@ -1,5 +1,6 @@
 import classes from "./Container.module.css";
 import Category from "./Category/Category";
+import Container2 from "./Container2/Container2";
 const Container = () => {
   return (
     <div className={classes.container}>
@@ -7,7 +8,7 @@ const Container = () => {
         <div className={classes.category}>
           <Category />
         </div>
-        <Category className={classes.category} />
+        <Container2 />
       </div>
     </div>
   );
