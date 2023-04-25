@@ -1,4 +1,5 @@
 import classes from "./Category.module.css";
+import { Link } from "react-router-dom";
 
 const Category = () => {
   return (
@@ -16,7 +17,9 @@ const Category = () => {
       </div>
       <div className={classes.FlexContainer2}>
         <div className={classes.FlexContainer2_components}>
+          {/* <Link to="/"> */}
           <button>지갑관리</button>
+          {/* </Link> */}
           <button>네트워크관리</button>
           <button>블록체인관리</button>
         </div>
