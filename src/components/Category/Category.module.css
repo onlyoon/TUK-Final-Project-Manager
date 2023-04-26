@@ -1,8 +1,11 @@
 .category {
+  border: 1px solid black;
+  padding: 0px 30px 20px 30px;
   display: flex;
-  height: 100%;
-  flex-direction: column;
   width: 100%;
+  max-width: 881px;
+  height: 192px;
+  flex-direction: column;
   overflow: hidden;
 }
 
@@ -69,8 +72,4 @@ a:hover {
 button {
   background-color: white;
   border: 1px solid white;
-}
-
-button:hover {
-  border-bottom: 1px solid black;
 }
